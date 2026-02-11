@@ -1,8 +1,14 @@
+import Footer from './components/footer/Footer';
+import NavBar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 
 function App() {
   return (
-    <Home />
+    <>
+       <NavBar />
+       <Home />
+       <Footer />
+    </>   
   );
 }
 
